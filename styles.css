@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(45deg, #4caf50, #81c784);
+  font-family: Arial, sans-serif;
+  /* تنظیم استایل بدنه صفحه */
+  /* استفاده از Flexbox برای مرکز کردن محتوا */
+  /* تنظیم ارتفاع صفحه به 100% ارتفاع نمایشگر */
+  /* حذف حاشیه‌های پیش‌فرض */
+  /* استفاده از گرادیان رنگی برای پس‌زمینه */
+  /* تنظیم فونت پیش‌فرض به Arial */
+}
+
+.game-board {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  border: 2px solid #000;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* تنظیم استایل تخته بازی */
+  /* تعیین اندازه 400px در 400px */
+  /* رنگ پس‌زمینه سفید */
+  /* اضافه کردن یک حاشیه مشکی */
+  /* استفاده از موقعیت نسبی برای جایگذاری دقیق‌تر عناصر داخل آن */
+  /* استفاده از Flexbox برای توزیع بخش‌ها */
+  /* اضافه کردن سایه به تخته بازی */
+}
+
+.snake,
+.fruit {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 4px;
+  /* تنظیم استایل عمومی برای مار و میوه */
+  /* تعیین اندازه هر بخش 20px در 20px */
+  /* استفاده از موقعیت مطلق برای جایگذاری دقیق‌تر */
+  /* اضافه کردن لبه‌های گرد */
+}
+
+.snake {
+  background: linear-gradient(45deg, #4caf50, #388e3c);
+  border: 1px solid #2e7d32;
+  /* استایل‌دهی به مار */
+  /* استفاده از گرادیان رنگی سبز */
+  /* اضافه کردن حاشیه سبز تیره */
+}
+
+.fruit {
+  background: radial-gradient(circle, #ff5722, #e64a19);
+  border: 1px solid #d84315;
+  box-shadow: 0 0 5px rgba(255, 87, 34, 0.5);
+  /* استایل‌دهی به میوه */
+  /* استفاده از گرادیان شعاعی نارنجی */
+  /* اضافه کردن حاشیه نارنجی تیره */
+  /* اضافه کردن سایه به میوه */
+}
